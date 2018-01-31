@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Activities</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="content">
+      <ion-row>
+        <ion-col [navPush]="elearning">
+          <img src="http://e-learning.fibaro.com/wp-content/uploads/2015/04/learn2.png" >
+          <br />
+          E-Learning
+        </ion-col>
+        <ion-col [navPush]="webvr">
+          <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/337516-200.png">
+          <br />
+          Web-based Virtual Worlds and simulation (VWs)
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col [navPush]="mobile">
+          <img src="http://simpleicon.com/wp-content/uploads/iphone-portrait-256x256.png">
+          <br />
+          Mobile Learning
+        </ion-col>
+        <ion-col [navPush]="learningtheory">
+          <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/14956-200.png">
+          <br />
+          Learning Theory
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col [navPush]="learninganalytics">
+          <img src="http://www.anthonyragland.com/wp-content/uploads/2014/09/web-analytics-data-analysis.png">
+          <br />
+          Learning Analytics and Performance Modeling
+        </ion-col>
+        <ion-col [navPush]="tla">
+          <img src="http://www.system3.co.uk/media/images/network-diagram-24-11-15-12-56-23.png">
+          <br />
+          Total Learning Architecture infrastructure (TLA)
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col [navPush]="ai">
+          <img src="https://lp-pa.forces.gc.ca/portal/mod/tinymce_four/ai.png">
+          <br />
+          Artificial Intelligence
+        </ion-col>
+      </ion-row>
+  </div>
+
+</ion-content>

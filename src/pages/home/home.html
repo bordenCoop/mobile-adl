@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to the Advanced Distributed Learning group!</h2>
+  <p>
+    e-Learning (web-based learning) – Research technical components and techniques to develop and support electronic-based education and training.
+    This includes R&D on the creation, delivery, and tracking of web-based learning content in a consistent and interoperable way;
+     best practices for e-learning policy and processes; and various components for supporting web-based learning, such as content and learning management systems, content registries, and Massive Open Online Courses.
+  </p>
+  <p>
+    Mobile learning and mobile performance support – Research focused on the use of commercially-available handheld computing devices to provide
+    access to learning content and information resources by leveraging ubiquitous mobile technology for the adoption or augmentation of
+    knowledge, behaviors, or skills through education, training, or performance support.
+  </p>
+  <p>
+    Learning analytics and performance modeling – Research in the collection, measurement, analysis, and reporting of data, which may include
+    “big data,” about learners and their contexts, for purposes of understanding, optimizing, and predicting learning success.
+    Other topics under this category may include competencies, credentialing, learner profiles, data visualization, open/social learner models, and associated privacy and information security concerns.
+  </p>
+  <p>
+    Learning theory – Research focused on the application, evaluation, and embedding of efficient and effective, current, new, and emerging
+    theories of learning, learning science, instructional technology, and tutoring to the design, prototyping, and evaluation of
+    primarily digital learning technologies. This research is pervasive, touching all aspects of research and development performed by ADL.
+  </p>
+  <p>
+    Total Learning Architecture infrastructure (TLA) – Research focused on modernizing the platforms used for education and training, to
+    interoperability of disparate systems so they can be used together as a Service Oriented Architecture (SOA) to
+     securely share relevant learning data including, but not limited to, granular learning experience information, competency frameworks, learner profiles and metadata about learning and training content.
+  </p>
+  <p>
+    Web-based Virtual Worlds and simulation (VWs) – Research into the emerging fields of serious games, simulations, and virtual reality
+    (within a distributed learning context) for the purpose of providing rich interactive content, delivered to remote
+    learners, allowing these learners to exercise skills that are either too costly, complex, or dangerous to practice in real life.
+  </p>
+  <p>
+    In this group you will first introduce yourself to the other group memebers (Introduction button), you will then be able to start
+     doing the activities (Activities button).
+  </p>
+
+  <button ion-button color="dark" [navPush]="Activities">Activities</button>
+  <button ion-button color="dark" [navPush]="introduction">Introduction</button>
+</ion-content>
