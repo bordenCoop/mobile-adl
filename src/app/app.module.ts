@@ -14,6 +14,16 @@ import { LearningtheoryPage } from '../pages/learningtheory/learningtheory';
 import { LearningAnalyticsPage } from '../pages/learninganalytics/learninganalytics';
 import { TlaPage } from '../pages/tla/tla';
 import { AiPage } from '../pages/ai/ai';
+import { WillitworkonlinePage } from '../pages/willitworkonline/willitworkonline';
+import { ConnectwithhajikamalPage } from '../pages/connectwithhajikamal/connectwithhajikamal';
+import { BrilliantPage } from '../pages/brilliant/brilliant';
+import { AugmentPage } from '../pages/augment/augment';
+import { RespectincafPage } from '../pages/respectincaf/respectincaf';
+import { QuickdrawPage } from '../pages/quickdraw/quickdraw';
+import { TeachablemachinePage } from '../pages/teachablemachine/teachablemachine';
+import { AutodrawPage } from '../pages/autodraw/autodraw';
+import { SketchrnnPage } from '../pages/sketchrnn/sketchrnn';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -31,7 +41,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LearningtheoryPage,
     LearningAnalyticsPage,
     TlaPage,
-    AiPage
+    AiPage,
+    WillitworkonlinePage,
+    ConnectwithhajikamalPage,
+    BrilliantPage,
+    AugmentPage,
+    RespectincafPage,
+    QuickdrawPage,
+    TeachablemachinePage,
+    AutodrawPage,
+    SketchrnnPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +69,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LearningtheoryPage,
     LearningAnalyticsPage,
     TlaPage,
-    AiPage
+    AiPage,
+    WillitworkonlinePage,
+    ConnectwithhajikamalPage,
+    BrilliantPage,
+    AugmentPage,
+    RespectincafPage,
+    QuickdrawPage,
+    TeachablemachinePage,
+    AutodrawPage,
+    SketchrnnPage
   ],
   providers: [
     StatusBar,

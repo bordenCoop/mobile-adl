@@ -8,6 +8,24 @@
 </ion-header>
 
 <ion-content padding>
-
-
+  <img class="banner" src="http://spadeworx.com/wp-content/uploads/2016/07/Artificial_Intel_Banner.jpg">
+  <h1>Artificial Intelligence</h1>
+  Artificial intelligence (AI, also machine intelligence, MI) is intelligence displayed by machines, in contrast with the natural intelligence (NI)
+  displayed by humans and other animals. In computer science AI research is defined as the study of "intelligent agents": any device that perceives
+  its environment and takes actions that maximize its chance of success at some goal.
+  <br />
+  <ion-row class="vr">
+    <ion-col>
+      <button ion-button color="dark" [navPush]="quickdraw">Quick, Draw!</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="dark" [navPush]="teachablemachine">Teachable Machine</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="dark" [navPush]="autodraw">Auto Draw</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button color="dark" [navPush]="sketchrnn">Sketch RNN</button>
+    </ion-col>
+  </ion-row>
 </ion-content>
